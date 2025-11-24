@@ -1,5 +1,5 @@
 ---
-title: "Por que criei este blog: minha jornada em cibersegurança, meu laboratório e meu processo de aprendizagem"
+title: "Meu laboratório de estudos em cibersegurança: ThinkPad X230, Fedora e a importância de documentar"
 date: 2025-11-23
 draft: false
 categories:
@@ -17,7 +17,7 @@ tags:
   - "OSINT"
   - "Linux Security"
   - "Forense Digital"
-description: "Como desenvolvedor frontend e estudante de Pós-Graduação em Cibersegurança, montei meu próprio laboratório com um ThinkPad X230 e Fedora. Documentar meu aprendizado em hardening, forense, redes e plataformas como TryHackMe e HTB virou parte essencial da minha formação."
+description: "Como montei meu laboratório de estudos com ThinkPad X230 e Fedora, e por que documentar é essencial quando se estuda cibersegurança sozinho. Hardening, CTFs e preparação para Perito Forense Digital da PF."
 keywords:
   - "estudante de cibersegurança"
   - "jornada na cibersegurança"
@@ -33,33 +33,52 @@ image: "/images/posts/jornada-cyber.png"
 level: "Intermediário"
 ---
 
+Estudar cibersegurança enquanto trabalho como programador não é fácil. O tempo é limitado, os conceitos são complexos e, quando você finalmente entende algo, semanas depois já esqueceu os detalhes importantes.
 
-Sou desenvolvedor **frontend**. Meu dia a dia sempre foi JavaScript, componentes, UI, experiência do usuário. Mas, em algum momento, percebi que havia um lado meu que queria ir além da superfície — queria entender sistemas de verdade, redes de verdade, segurança de verdade.
+Foi exatamente isso que me fez perceber a importância de documentar. Não apenas anotar, mas realmente escrever, organizar e consolidar o conhecimento de forma que eu pudesse voltar depois e entender rapidamente o que fiz, por que fiz e como fiz.
 
-E descobri que a única forma de aprender isso era **estudar por conta própria**. Foi assim que cibersegurança deixou de ser só uma curiosidade e virou meu **hobby sério** — aquele assunto que estudo à noite, nos fins de semana, nos momentos livres. Não porque o trabalho exige, mas porque eu genuinamente gosto de mergulhar fundo.
+## A dificuldade de estudar sozinho
 
-Eu criei este blog porque percebi que **documentar meu aprendizado é tão importante quanto estudar**. Quando algo quebra e eu conserto, escrevo. Quando aprendo algo novo, escrevo. Quando erro de novo, escrevo também.
+Quando comecei a estudar cibersegurança de forma séria, enfrentei alguns desafios:
 
-Este blog virou meu caderno digital — e o reflexo da minha própria evolução.
+* **Volume de informação**: Hardening em Linux, análise forense, investigação digital, técnicas de segurança — são muitos tópicos diferentes e cada um exige tempo e prática.
 
-### Meu Laboratório de Estudos
+* **Falta de contexto**: Muitas vezes eu aprendia algo, mas não documentava o contexto. Duas semanas depois, não lembrava mais por que tinha feito determinada configuração ou qual problema estava resolvendo.
 
-Como dev frontend, eu sempre vivi na camada mais alta da tecnologia: navegador, APIs, UI, frameworks. Mas quando entrei no mundo de segurança, percebi que queria justamente o contrário: **entender o que está embaixo**.
+* **Erros repetidos**: Sem documentar, eu acabava cometendo os mesmos erros várias vezes. Perdia tempo refazendo o que já tinha feito antes.
 
-Então montei meu próprio laboratório. Sem regras. Sem medo de apagar algo. Sem medo de quebrar.
+* **Falta de referência**: Quando precisava revisar algo, não tinha uma referência organizada. Tudo estava espalhado em notas, arquivos e memória.
 
-Um lugar para:
+Foi então que percebi: **documentar não é opcional, é essencial para quem estuda sozinho**.
 
-* entender kernel, memória, processos e permissões
-* testar vulnerabilidades sem medo
-* estudar hardening e ver consequências reais
-* analisar tráfego e protocolos de verdade
-* praticar forense digital
-* aprender fazendo e errando
+## Por que este blog existe
 
-Foi o melhor investimento que fiz na minha formação.
+Este blog tem dois propósitos principais:
 
-### Meu Setup: ThinkPad X230 + Fedora Linux
+**a)** Consolidar meu aprendizado. Cada técnica que aprendo, cada ferramenta que uso, cada erro que cometo — tudo isso vira conteúdo aqui. É uma forma de criar uma referência para mim mesmo e garantir que o conhecimento não se perca.
+
+**b)** Acompanhar minha preparação para o concurso de Perito Forense Digital da Polícia Federal. Vou compartilhar estudos, metodologias, ferramentas e tudo que estou aprendendo nessa jornada.
+
+Se você está começando em cibersegurança ou também está se preparando para concursos na área, espero que este espaço seja útil. E se você já tem experiência, adoraria trocar conhecimentos.
+
+## Meu Laboratório de Estudos
+
+Trabalhando como programador, meu dia a dia sempre foi código, APIs, lógica de negócio. Mas quando comecei a estudar cibersegurança, percebi que precisava ir além — queria entender sistemas de verdade, redes de verdade, segurança de verdade.
+
+Então montei meu próprio laboratório. Um espaço onde posso testar, quebrar, aprender e errar sem medo.
+
+É aqui que eu:
+
+* estudo kernel, memória, processos e permissões
+* testo vulnerabilidades e técnicas de segurança
+* pratico hardening e vejo as consequências reais
+* analiso tráfego de rede e protocolos
+* treino forense digital e investigação
+* aprendo fazendo, não só lendo
+
+Foi o melhor investimento que fiz na minha preparação.
+
+## Meu Setup: ThinkPad X230 + Fedora Linux
 
 {{< case title="Meu Setup Principal" impact="Laboratório de estudos pessoal" date="2024" >}}
 ThinkPad X230 rodando Fedora Linux — minha estação de trabalho e laboratório de estudos em um só dispositivo.
@@ -67,23 +86,23 @@ ThinkPad X230 rodando Fedora Linux — minha estação de trabalho e laboratóri
 
 ### Por que escolhi o ThinkPad X230?
 
-Eu precisava de uma máquina que não tivesse medo de abrir, desmontar, resetar e arriscar. Como desenvolvedor frontend, meu computador principal não podia ser meu laboratório de erros. O X230 virou esse espaço livre.
+Precisava de uma máquina que eu não tivesse medo de abrir, desmontar, resetar e arriscar. Como programador, meu computador principal não podia ser meu laboratório de erros. O X230 virou esse espaço livre.
 
-**Vantagens para alguém como eu — dev de dia, estudante de segurança à noite:**
+**Vantagens para alguém como eu — programador de dia, estudante de segurança à noite:**
 
-* fácil de desmontar
-* modular
+* fácil de desmontar e modificar
+* modular e resistente
 * compatível com praticamente qualquer distro Linux
-* resistente
 * perfeito para estudar hardware e firmware
+* preço acessível para um laboratório dedicado
 
-O X230 não é só um notebook velho. Ele virou *meu laboratório físico*.
+O X230 não é só um notebook usado. Ele virou meu laboratório físico.
 
 ### Por que Fedora? Por que não Kali ou Parrot?
 
-Como alguém vindo do mundo de frontend, eu nunca quis um sistema que me desse tudo pronto. Eu queria construir meu entendimento com as próprias mãos.
+Como programador, nunca quis um sistema que me desse tudo pronto. Queria construir meu entendimento com as próprias mãos.
 
-Por isso escolhi Fedora: eu queria sentir a estrutura real de um sistema Linux moderno. Queria trabalhar com SELinux, systemd, journald, política, initramfs, módulos — coisas que jamais aparecem no meu trabalho formal, mas que eram exatamente o que eu buscava aprender.
+Por isso escolhi Fedora: queria sentir a estrutura real de um sistema Linux moderno. Queria trabalhar com SELinux, systemd, journald, políticas, initramfs, módulos — coisas que não aparecem no meu trabalho diário, mas que são exatamente o que preciso aprender para o concurso.
 
 Fedora me obriga a:
 
@@ -117,7 +136,7 @@ E principalmente:
 
 ## Hardening: Meu Aprendizado Mais Profundo
 
-Como dev frontend, eu nunca tinha precisado pensar em `/etc/fstab`, mount flags, initramfs ou permissões de kernel. Mas quando comecei hardening no meu laboratório, foi inevitável.
+Como programador, nunca tinha precisado pensar em `/etc/fstab`, mount flags, initramfs ou permissões de kernel. Mas quando comecei hardening no meu laboratório, foi inevitável.
 
 Aprendi:
 
@@ -159,26 +178,27 @@ CTFs me ensinaram metodologia.
 
 Hoje minha rotina é:
 
-* trabalhar com frontend
-* estudar segurança à noite
-* fazer labs aos poucos
+* trabalhar como programador durante o dia
+* estudar cibersegurança à noite
+* fazer labs e práticas aos poucos
 * documentar tudo no blog
 
 Essa disciplina mudou minha relação com tecnologia.
 
-## Pós-Graduação: Conectando a Teoria à Prática
+## Pós-Graduação em Cibersegurança: Conectando a Teoria à Prática
 
-Mesmo trabalhando como dev frontend, eu decidi dar um passo além e formalizar meus estudos com uma **Pós-Graduação em Cibersegurança**. Foi uma escolha pessoal, não profissional: eu queria entender segurança com profundidade acadêmica, mesmo que isso não tivesse ligação direta com meu dia a dia no trabalho.
+Mesmo trabalhando como programador, decidi dar um passo além e formalizar meus estudos com uma **Pós-Graduação em Cibersegurança pela Acadi-TI, com certificação CEH**. Foi uma escolha focada no meu objetivo: passar no concurso de Perito Forense Digital da PF.
 
 Minha vida hoje é assim:
 
-* trabalho com frontend durante o dia,
-* estudo segurança à noite,
-* e, quando sobra tempo, mergulho no meu laboratório para praticar.
+* trabalho como programador durante o dia
+* estudo cibersegurança à noite e nos fins de semana
+* quando sobra tempo, mergulho no meu laboratório para praticar
+* documentar tudo aqui no blog
 
-Esses mundos não competem — eles se complementam.
+Esses mundos não competem — eles se complementam. Cada conhecimento em programação me ajuda a entender melhor segurança, e cada estudo em segurança me torna um programador mais consciente.
 
-## Epílogo: O Que Eu Gostaria De Ter Sabido Antes
+## O Que Eu Gostaria De Ter Sabido Antes
 
 Se eu pudesse falar com o Luan que estava começando, eu diria:
 
@@ -188,8 +208,9 @@ Se eu pudesse falar com o Luan que estava começando, eu diria:
 * documente para lembrar
 * permita-se ser curioso
 * sua profissão não define seus limites técnicos
+* foco no objetivo final te mantém motivado
 
-Eu não escolhi segurança como carreira. Eu escolhi segurança como caminho de aprendizado.
+Eu não escolhi segurança apenas como hobby. Escolhi segurança como caminho para meu objetivo profissional.
 
 E isso foi o que mais me transformou.
 
