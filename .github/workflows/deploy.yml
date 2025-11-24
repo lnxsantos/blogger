@@ -32,10 +32,6 @@ jobs:
           hugo-version: '0.147.8'
           extended: true
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
@@ -43,8 +39,7 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
