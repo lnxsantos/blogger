@@ -45,7 +45,7 @@
     {{ partial "footer.html" . }}
     
     {{- if hugo.IsProduction -}}
-    <script type="module" src="{{ "js/main.bundle.js" | relURL }}"></script>
+    <script src="{{ "js/main.bundle.js" | relURL }}"></script>
     {{- else -}}
     <script type="module" src="{{ "js/main.js" | relURL }}"></script>
     {{- end -}}

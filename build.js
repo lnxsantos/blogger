@@ -4,8 +4,8 @@
  * Build script for JavaScript and CSS
  */
 
-const { build } = require('esbuild');
-const { execSync } = require('child_process');
+import { build } from 'esbuild';
+import { execSync } from 'child_process';
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -17,7 +17,7 @@ async function buildJS() {
         await build({
             entryPoints: ['themes/tech-blog-theme/static/js/main.js'],
             bundle: true,
-            format: 'esm',
+            format: 'iife',
             outfile: 'themes/tech-blog-theme/static/js/main.bundle.js',
             minify: isProduction,
             sourcemap: !isProduction,

@@ -58,7 +58,7 @@ jobs:
         env:
           NODE_ENV: production
         run: |
-          npm run build:js || echo "⚠️  JavaScript build skipped"
+          npm run build:js
           npm run build:css || echo "⚠️  CSS build skipped"
 
       - name: Build Hugo
