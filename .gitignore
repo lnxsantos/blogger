@@ -43,6 +43,11 @@ ENV/
 *.temp
 layout_temp.css
 
+# Documentation/Tutorial files
+IMPROVEMENTS.md
+INSTALL.md
+GISCUS_SETUP.md
+
 # Test results
 coverage/
 test-results/
