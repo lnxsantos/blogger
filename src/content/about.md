@@ -2,28 +2,39 @@
 title: "Sobre"
 date: 2025-11-24
 draft: false
-description: "Aqui registro achados, anotações, experimentos, erros, reconstruções e o processo de aprender fazendo."
+description: "Anotações técnicas sobre análise forense, OSINT e investigação digital. Procedimentos, experimentos e reconstruções."
 ---
 
 ## Sobre este site
 
-Este site é meu caderno.  
-Aqui registro achados, anotações, experimentos, erros, reconstruções e o processo de aprender fazendo.  
-Nada aqui representa opiniões de empregadores. Nada aqui é superficial.
+Este site funciona como um repositório técnico pessoal.  
+É onde documento **processos, evidências, experimentos, reconstruções, metodologias** e qualquer coisa que faça sentido preservar para uso futuro.
 
-A intenção é simples: documentar conhecimento técnico que valha a pena revisitar no futuro.  
-Coisas que quebram, coisas que funcionam, coisas que parecem funcionar mas não deveriam.
+O foco é simples:  
+**entender sistemas, quebrar comportamentos opacos e registrar procedimentos que possam ser repetidos ou auditados.**
+
+Aqui entram:
+
+- análises forenses,
+- coleta e correlação de artefatos,
+- investigações OSINT,
+- reconstrução de eventos,
+- falhas operacionais,
+- scripts e rotinas auxiliares,
+- padrões que emergem depois de errar o suficiente.
+
+Nada aqui representa empregadores ou organizações. É trabalho independente, orientado a método e curiosidade — não opinião.
 
 ---
 
-### Contato
+## Contato
 
-Se quiser trocar ideias ou discutir pesquisa, pode me mandar um e-mail.  
-Evito redes sociais e perfis que aparecem por aí não são meus.
+Se quiser trocar ideias, discutir metodologia ou revisar pesquisa, envie um e-mail:  
+[**santos.luan@proton.me**](mailto:santos.luan@proton.me)
 
 ---
 
-### Nota
+## Nota
 
-Todo conteúdo aqui é para fins de estudo e pesquisa.  
-Use com responsabilidade, em ambientes controlados e autorizados.
+Todo conteúdo é voltado para **estudo, pesquisa e ambientes controlados**.  
+Procedimentos de investigação devem ser aplicados **somente** com autorização adequada e dentro do escopo legal.

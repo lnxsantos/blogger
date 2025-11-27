@@ -11,7 +11,6 @@ taxonomies = {}
 [params]
   author = "Luan Santos"
   description = "Documentação técnica de análise forense, OSINT e investigação digital. Procedimentos, metodologias e resultados de investigações."
-  github = "https://github.com/luansantosme"
   
   # Open Graph e Social Media
   # Imagem padrão para compartilhamento (1200x630px recomendado)
